@@ -1,0 +1,6 @@
+public/css/
+public/js/
+node_modules/
+package-lock.json
+.tmp
+.idea
