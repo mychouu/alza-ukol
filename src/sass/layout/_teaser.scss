@@ -98,9 +98,19 @@
 
   .btn {
     margin-bottom: .5rem;
+
+    @include media-breakpoint-up(sm) {
+      padding: vw(24px) vw(44px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 24px 44px;
+    }
   }
 
   p, a:not(.btn) {
+    color: lighten(#FF7D7D, 5%);
+
     @include media-breakpoint-up(sm) {
       color: #FF7D7D;
     }
