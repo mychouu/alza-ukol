@@ -6,6 +6,7 @@ import browserify from 'browserify';
 import handlebars from 'browserify-handlebars';
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
+import gcmq from'gulp-group-css-media-queries';
 
 const $ = gulploadplugins({
     lazy: true
@@ -30,10 +31,12 @@ gulp.task('styles', () => {
         // Concatenate and minify styles if production mode (via gulp styles --production)
         .pipe($.if('*.css' && argv.production, $.minifyCss()))
         .pipe($.if(!argv.production,$.sourcemaps.write()))
+        .pipe(gcmq())
         .pipe(gulp.dest('public/css'))
         .pipe($.if(!argv.production, browserSync.stream()))
         .pipe($.size({title: 'main'}));
 });
+
 
 // Scripts - app.js is the main entry point, you have to import all required files and modules
 gulp.task('scripts', () => {
