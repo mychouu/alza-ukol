@@ -101,9 +101,6 @@
   }
 
   p, a:not(.btn) {
-    color: lighten(#FF7D7D, 5%);
-    font-size: rem(14px);
-
     @include media-breakpoint-up(sm) {
       color: #FF7D7D;
     }

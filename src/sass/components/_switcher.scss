@@ -1,0 +1,72 @@
+.switcher {
+  font-size: 12px;
+  width: 240px;
+
+  * {
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
+    position: relative;
+
+    display: flex;
+    height: 28px;
+
+    background: #fff;
+    border-radius: 28px;
+
+    user-select: none;
+
+    // button for animation
+    &:before {
+      content: '';
+      display: block;
+      height: 24px;
+
+      position: absolute;
+      left: 120px;
+      right: 2px; top: 2px;
+      border-radius: 12px;
+      z-index: 1;
+
+      background: rgb(84,84,84);
+      background: linear-gradient(180deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);
+
+      transition: right .4s, left .3s .1s;
+
+    }
+  }
+
+  span {
+    position: relative;
+    z-index: 2;
+    flex: 1 0 50%;
+    color: #A4A4A4;
+
+    text-align: center;
+    line-height: 28px;
+    white-space: none;
+
+    cursor: pointer;
+    transition: $transition;
+
+    &:last-child {
+      color: #fff;
+    }
+  }
+
+
+  input:checked ~ label {
+    &:before {
+      right: 120px;
+      left: 2px;
+      transition: left .4s, right .3s .1s;
+    }
+
+    span:first-child { color: #fff; }
+    span:last-child { color: #A4A4A4; }
+  }
+}
