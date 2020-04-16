@@ -1,0 +1,134 @@
+.alza-prem-teaser {
+  background: url(/img/teaser-bg-mobile@2x.jpg) no-repeat;
+  background-position: 60% center;
+  background-size: cover;
+
+  @include media-breakpoint-up(sm) {
+    background-image: url(/img/teaser-bg@2x.jpg);
+    background-position: center;
+  }
+}
+
+.alza-prem-teaser__info {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 460px;
+  padding: 40px 20px 20px;
+
+  color: #fff;
+
+  @include media-breakpoint-up(sm) {
+    height: vw(690px);
+    padding: 0 0 vw(35px) vw(85px);
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 690px;
+    padding: 0 0 35px 85px;
+  }
+
+
+  // arrow in midle bottm
+  &:after {
+    content: '';
+    display: block;
+    width: 0; height: 0;
+
+    border-style: solid;
+    border-width: rem(22px 23px 0 23px);
+    border-color: #b51f1f transparent transparent transparent;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: rem(-23px);
+  }
+
+
+  img {
+    width: rem(300px);
+
+    @include media-breakpoint-up(sm) {
+      width: vw(337px);
+      margin: vw(110px) 0 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 337px;
+      margin: 110px 0 0;
+    }
+  }
+
+  h1 {
+    max-width: 350px;
+    margin: 1.75rem 0;
+
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: rem(26px);
+
+
+    @include media-breakpoint-up(sm) {
+      max-width: vw(600px);
+      font-size: vw(40px);
+      margin: vw(50px) 0 vw(64px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 600px;
+      font-size: 40px;
+      margin: 50px 0 64px;
+    }
+
+    strong {
+      white-space: nowrap;
+    }
+  }
+
+  div {
+    flex: 1 0 auto;
+    text-align: center;
+  }
+
+  .btn {
+    margin-bottom: .5rem;
+  }
+
+  p, a:not(.btn) {
+    color: lighten(#FF7D7D, 5%);
+    font-size: rem(14px);
+
+    @include media-breakpoint-up(sm) {
+      color: #FF7D7D;
+    }
+  }
+
+  a:not(.btn) {
+    display: block;
+    padding: rem(10px 0); // for mobile better click
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 13px;
+    max-width: 450px;
+
+    br { display: none; }
+
+
+    @include media-breakpoint-up(xs) {
+      br { display: block; }
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+  }
+
+}

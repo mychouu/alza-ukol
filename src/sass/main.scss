@@ -16,12 +16,16 @@
   'base/base',
   'base/fonts',
   'base/typography',
-  'base/helpers';
+  'base/helpers',
+  'base/holder';
 
 // 4. Layout-related sections
 @import
-  'layout/header',
-  'layout/footer';
+  'layout/teaser',
+  'layout/what-u-get',
+  'layout/benefits',
+  'layout/activation',
+  'layout/share';
 
 @import
   'components/button';

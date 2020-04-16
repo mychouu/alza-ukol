@@ -3,11 +3,8 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$font-family-base: 'Roboto', sans-serif;;
+$font-family-title: 'Poppins', sans-serif;;
 
 
 
@@ -34,33 +31,26 @@ $mid-grey: rgb(153, 153, 153) !default;
 $dark-grey: rgb(68, 68, 68) !default;
 
 
-
+$green: #A1C900;
 
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1180px !default;
+$max-width: 1255px !default;
+$screen-wide: 1255;
 
 
-
+$transition: all .3s ease-in-out;
 
 
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
+  xs: 540px,
+  sm: 768px,
+  md: 992px,
+  lg: $max-width,
 ) !default;
 
 
-
-
-
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/assets/' !default;

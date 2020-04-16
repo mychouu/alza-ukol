@@ -3,5 +3,9 @@
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 125% / 1.4 $font-family-base;
+}
+
+h1, h2, h3 {
+  font-family: $font-family-title;
 }

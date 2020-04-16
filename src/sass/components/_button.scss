@@ -1,3 +1,22 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
-// -----------------------------------------------------------------------------
+.btn {
+  display: inline-block;
+  padding: rem(16px 30px);
+
+
+  font: 500 #{rem(20px)}/1.1 $font-family-base;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+
+  background: $green;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+
+  transition: $transition;
+
+  @include on-event {
+    background: #84B517;
+    text-decoration: none;
+    color: #fff;
+  }
+}

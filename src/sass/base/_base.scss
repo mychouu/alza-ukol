@@ -7,6 +7,11 @@
  */
 html {
   box-sizing: border-box;
+  font-size: 13px;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 16px;
+  }
 }
 
 /**
@@ -26,10 +31,22 @@ html {
  */
 a {
   color: $brand-color;
-  text-decoration: none;
+  // text-decoration: none;
 
   @include on-event {
     color: $text-color;
     text-decoration: underline;
+  }
+}
+
+body {
+}
+
+.container {
+  max-width: $max-width;
+  margin: auto;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0 20px;
   }
 }
