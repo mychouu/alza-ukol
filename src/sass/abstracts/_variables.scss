@@ -36,11 +36,14 @@ $green: #A1C900;
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1255px !default;
-$screen-wide: 1255;
+$max-width: 1295px !default;
+$screen-wide: 1295;
 
 
 $transition: all .3s ease-in-out;
+
+
+$icomoon-font-path: '../fonts/';
 
 
 /// Breakpoints map

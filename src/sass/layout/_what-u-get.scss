@@ -1,0 +1,23 @@
+.alza-prem-w-u-g {
+  background: #F4F5F5;
+
+  h2 {
+    margin-bottom: rem(50px);
+  }
+}
+
+$box-size: 256px;
+$box-gap: 10px;
+.alza-prem-w-u-g__boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+
+  .box {
+    flex: 1 0 $box-size;
+    max-width: $box-size;
+
+    margin: $box-gap;
+  }
+}
