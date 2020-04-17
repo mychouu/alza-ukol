@@ -1,0 +1,10 @@
+.tooltip {
+  line-height: 1.5;
+  display: inline-block;
+  border-bottom: 1px dotted lighten($text-color, 40%);
+  cursor: help;
+
+  @include on-event {
+    color: #e9242e;
+  }
+}

@@ -21,7 +21,12 @@
   'base/helpers',
   'base/holder';
 
-// 4. Layout-related sections
+@import
+  'components/button',
+  'components/tooltip',
+  'components/box',
+  'components/switcher';
+
 @import
   'layout/teaser',
   'layout/what-u-get',
@@ -29,10 +34,6 @@
   'layout/activation',
   'layout/share';
 
-@import
-  'components/button',
-  'components/box',
-  'components/switcher';
 
 @import
   'pages/home';

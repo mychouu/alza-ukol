@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
 
-  padding: 0 .75rem 1rem;
+  padding: 0 .75rem 1.5rem;
   text-align: center;
 
   background: #fff;
@@ -58,4 +58,16 @@
 
   background: rgb(217,81,69);
   background: linear-gradient(0deg, rgba(217,81,69,1) 0%, rgba(205,66,53,1) 100%);
+}
+
+.box__new--big {
+  height: rem(80px);
+  width: rem(130px);
+  top: rem(-22px);
+  right: rem(-47px);
+  padding-top: rem(42px);
+
+  line-height: 1.2;
+  font-size: rem(12px);
+  background: radial-gradient(circle at center, #e0594f 0%, #b52313 100%);
 }

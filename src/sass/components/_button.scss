@@ -19,4 +19,8 @@
     text-decoration: none;
     color: #fff;
   }
+
+  @include media-breakpoint-up(md) {
+    padding: rem(24px 44px);
+  }
 }
