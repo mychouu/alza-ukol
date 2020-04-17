@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path id="Rectangle_182-2" d="M50,4C50,1.792 48.208,0 46,0L4,0C1.792,0 0,1.792 0,4L0,46C0,48.208 1.792,50 4,50L46,50C48.208,50 50,48.208 50,46L50,4Z" style="fill:rgb(66,103,178);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,15.396,7.603)">
+        <g id="facebook-2">
+            <path id="Path_1697" d="M19.333,16.56L26.522,16.56L26.522,22.722L19.333,22.722L19.333,42.235L11.117,42.235L11.117,22.722L5.982,22.722L5.982,16.56L11.117,16.56L11.117,11.425C11.117,8.534 11.574,6.742 13.171,5.263C14.768,3.784 16.632,3.21 20.36,3.21L26.522,3.21L26.522,9.371L23.441,9.371C22.327,9.35 21.238,9.713 20.36,10.4C19.751,10.914 19.379,11.658 19.333,12.454L19.333,16.56Z" style="fill:white;"/>
+        </g>
+    </g>
+</svg>

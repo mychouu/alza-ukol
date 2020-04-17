@@ -48,7 +48,8 @@ body {
 }
 
 section {
-  padding: rem(90px 20px 120px);
+  padding: vw(90px) 20px vw(120px);
+  // padding: rem(90px 20px 120px);
 }
 
 .container {

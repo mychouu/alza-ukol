@@ -1,0 +1,57 @@
+.alza-prem-share {
+  background: url(/img/share-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 20% center;
+  padding-bottom: vw(100px);
+
+  color: #fff;
+  text-align: right;
+
+
+  h2 {
+    text-align: right;
+    padding-left: 20%;
+
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  br {
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
+  }
+
+  p {
+    margin: vw(45px) 0 vw(55px);
+    font-size: 1rem;
+    padding-left: 50%;
+
+    @include media-breakpoint-up(sm) {
+      padding-left: 0;
+    }
+
+  }
+
+  a {
+    display: inline-block;
+    width: rem(50px);
+    height: rem(50px);
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  }
+
+  @include media-breakpoint-up(xs) {
+
+    background-position: 0 center;
+
+  }
+
+  @include media-breakpoint-up(sm) {
+    text-align: center;
+    height: vw(470px);
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path id="Rectangle_184-2" d="M50,4C50,1.792 48.208,0 46,0L4,0C1.792,0 0,1.792 0,4L0,46C0,48.208 1.792,50 4,50L46,50C48.208,50 50,48.208 50,46L50,4Z" style="fill:rgb(161,201,0);"/>
+    </g>
+    <g id="f-email" transform="matrix(1,0,0,1,7,6)">
+        <rect id="Path_1700" x="0" y="1" width="36.271" height="36.271" style="fill:none;"/>
+        <g id="Path_1701" transform="matrix(1,0,0,1,1.627,3.254)">
+            <path d="M18.9,16.286C18.924,16.314 18.949,16.341 18.976,16.366L30.124,24.393C30.236,24.471 30.364,24.52 30.499,24.538C29.751,25.908 28.31,26.763 26.749,26.763L6.271,26.763C4.71,26.764 3.268,25.907 2.521,24.536C2.656,24.519 2.784,24.47 2.896,24.393L14.038,16.372L15.924,17.435C16.186,17.581 16.505,17.584 16.769,17.442L18.9,16.286ZM31.02,9.706L31.02,22.575C31.02,22.695 30.993,22.807 30.984,22.923L20.529,15.4L31.017,9.7L31.02,9.706ZM2,9.583L12.412,15.453L2.036,22.925C2.025,22.807 2,22.695 2,22.575L2,9.583ZM26.746,5C28.574,4.996 30.21,6.171 30.79,7.905L16.362,15.74L2.263,7.789C2.879,6.113 4.486,4.995 6.271,5L26.746,5Z" style="fill:white;"/>
+        </g>
+    </g>
+</svg>
