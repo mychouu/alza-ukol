@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xyulvm') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xyulvm') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xyulvm##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?unh78x') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?unh78x') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?unh78x##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-chevron-down-solid {
+  &:before {
+    content: $icon-chevron-down-solid; 
+  }
+}
 .icon-bag {
   &:before {
     content: $icon-bag; 
