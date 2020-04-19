@@ -8,6 +8,7 @@ import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import gcmq from'gulp-group-css-media-queries';
 import esmify from'esmify';
+import minifyCss from'gulp-minify-css';
 
 const $ = gulploadplugins({
     lazy: true
@@ -30,9 +31,9 @@ gulp.task('styles', () => {
         .pipe($.autoprefixer({ browsers: ['last 10 version'] }))
         .pipe(gulp.dest('.tmp'))
         // Concatenate and minify styles if production mode (via gulp styles --production)
+        .pipe(gcmq())
         .pipe($.if('*.css' && argv.production, $.minifyCss()))
         .pipe($.if(!argv.production,$.sourcemaps.write()))
-        .pipe(gcmq())
         .pipe(gulp.dest('public/css'))
         .pipe($.if(!argv.production, browserSync.stream()))
         .pipe($.size({title: 'main'}));

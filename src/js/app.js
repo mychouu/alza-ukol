@@ -1,6 +1,8 @@
-// Example 1: Import jQuery
-import "jquery"
+import $ from 'jquery'
+import numberCounterInit from './_counter'
+import headlineAnimationInit from './_headlineAnimation'
+import tooltipInit from './_tooltip'
 
-// animation
-// https://codepen.io/CheeseTurtle/pen/jzdgI
-
+numberCounterInit();
+headlineAnimationInit();
+tooltipInit();

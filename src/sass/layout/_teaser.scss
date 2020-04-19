@@ -73,6 +73,29 @@
     font-weight: 400;
     font-size: rem(26px);
 
+    strong {
+      display: block;
+      position: relative;
+    }
+
+    span {
+      opacity: 0;
+      display: inline-block;
+      white-space: nowrap;
+
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .is-visible {
+      position: relative;
+      opacity: 1;
+      animation: push-in .6s;
+    }
+
+    .is-hidden { animation: push-out .6s; }
+
 
     @include media-breakpoint-up(sm) {
       max-width: vw(600px);
@@ -86,9 +109,6 @@
       margin: 50px 0 64px;
     }
 
-    strong {
-      white-space: nowrap;
-    }
   }
 
   div {
@@ -138,5 +158,4 @@
       font-size: 14px;
     }
   }
-
 }

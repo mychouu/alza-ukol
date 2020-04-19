@@ -17,12 +17,12 @@
 }
 
 .activation-table {
+  margin-top: 2rem;
   @include media-breakpoint-up(xs) {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  margin-top: 2rem;
 }
 
 .activation-table__col {
@@ -158,16 +158,10 @@
     padding-bottom: rem(20px);
   }
 
-  @include media-breakpoint-up(xs) {
-    // max-width: 120px;
-  }
-
   @include media-breakpoint-up(sm) {
     max-width: 230px;
   }
 
-  @include media-breakpoint-up(md) {
-  }
 }
 
 .activation-table-col__header {

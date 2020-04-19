@@ -34,7 +34,6 @@
     @include media-breakpoint-up(sm) {
       padding-left: 0;
     }
-
   }
 
   a {
@@ -45,9 +44,7 @@
   }
 
   @include media-breakpoint-up(xs) {
-
     background-position: 0 center;
-
   }
 
   @include media-breakpoint-up(sm) {

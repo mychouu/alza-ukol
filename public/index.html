@@ -21,7 +21,14 @@
     <section class="alza-prem-teaser">
       <div class="alza-prem-teaser__info">
         <img src="/img/alza-premium.svg" alt="Alza Premium">
-        <h1>Užívejte si prémiových služeb, <strong>které si zasloužíte.</strong></h1>
+        <h1>
+          Užívejte si prémiových služeb,
+          <strong>
+            <span class="is-visible">které si zasloužíte.</span>
+            <span>které si zamilujete.</span>
+            <span>které jinde nenajdete.</span>
+          </strong>
+        </h1>
 
         <div>
           <a class="btn" href="#">Vyzkoušet ZDARMA</a>
@@ -111,7 +118,7 @@
       </div>
 
       <div class="alza-prem-benefits__top">
-        <strong>22 750 Kč</strong>
+        <span><strong class="count-it">22 750</strong>Kč</span>
         Průměrná roční úspora člena Alza Premium
       </div>
 
@@ -120,7 +127,7 @@
           <i class="icon-money-save"></i>
 
           <div class="benefit-item__amount">
-            <strong>1 250</strong> Kč
+            <strong class="count-it">1 250</strong> Kč
           </div>
           <p>Tolik průměrně ušetří každý náš zákazník, který minimálně rok využívá služeb Alza Premium, na dopravě.</p>
         </div>
@@ -128,7 +135,7 @@
           <i class="icon-sale"></i>
 
           <div class="benefit-item__amount">
-            <strong>19 500</strong> Kč
+            <strong class="count-it">19 500</strong> Kč
           </div>
           <p>Tolik průměrně ušetří každý náš zákazník, který minimálně rok využívá služeb Alza Premium, na dopravě.</p>
         </div>
@@ -136,7 +143,7 @@
           <i class="icon-bag"></i>
 
           <div class="benefit-item__amount">
-            <strong>135</strong> produktů
+            <strong class="count-it">135</strong> produktů
           </div>
           <p>Zhruba tolik produktů ročně zlevníme v Premium Deals. Každý měsíc více jak 10 skvělých nabídek.</p>
         </div>
@@ -144,7 +151,7 @@
           <i class="icon-timer"></i>
 
           <div class="benefit-item__amount">
-            <strong>15</strong> hodin
+            <strong class="count-it">15</strong> hodin
           </div>
           <p>Zhruba tolik produktů ročně zlevníme v Premium Deals. Každý měsíc více jak 10 skvělých nabídek.</p>
         </div>
@@ -162,8 +169,8 @@
       <div class="activation-table">
         <div class="activation-table__col activation-table__col--nav">
           <div class="activation-table-col__header"></div>
-          <div><span class="tooltip" data-tooltip="Ať objednáte baterky nebo pračku, vždy budete mít nejvýhodnější dopravu zdarma.">Doprava zdarma na vše</span></div>
-          <div>Prioritní vyřízení reklamací</span></div>
+          <div><span class="tooltip" data-tooltip="1">Doprava zdarma na vše</span></div>
+          <div><span  class="tooltip" data-tooltip="2">Prioritní vyřízení reklamací</span></div>
           <div>Osobní asistent</div>
           <div>Black Friday o den dříve</div>
           <div>Přednost na zákaznické lince</div>
@@ -180,8 +187,8 @@
             <strong>Zkušební verze</strong>
             <span>na 1 měsíc zdarma</span>
           </div>
-          <div><i class="icon-circle-check"></i><span>Doprava zdarma na vše</span></div>
-          <div><i class="icon-circle-check"></i><span>Prioritní vyřízení reklamací</span></div>
+          <div><i class="icon-circle-check"></i><span class="tooltip" data-tooltip="1">Doprava zdarma na vše</span></div>
+          <div><i class="icon-circle-check"></i><span class="tooltip" data-tooltip="2">Prioritní vyřízení reklamací</span></div>
           <div><i class="icon-circle-check"></i><span>Osobní asistent</span></div>
           <div><i class="icon-circle-check"></i><span>Black Friday o den dříve</span></div>
           <div><i class="icon-circle-check"></i><span>Přednost na zákaznické lince</span></div>
@@ -200,7 +207,7 @@
             <strong>Roční verze</strong>
             <span>207 Kč / měsíčně</span>
           </div>
-          <div><i class="icon-circle-check"></i><span>Doprava zdarma na vše</span></div>
+          <div><i class="icon-circle-check"></i><span class="tooltip" data-tooltip="1">Doprava zdarma na vše</span></div>
           <div><i class="icon-circle-check"></i><span>Prioritní vyřízení reklamací</span></div>
           <div><i class="icon-circle-check"></i><span>Osobní asistent</span></div>
           <div><i class="icon-circle-check"></i><span>Black Friday o den dříve</span></div>
@@ -222,7 +229,7 @@
             <strong>Měsíční verze</strong>
             <span>249 Kč / měsíčně</span>
           </div>
-          <div><i class="icon-circle-check"></i><span>Doprava zdarma na vše</span></div>
+          <div><i class="icon-circle-check"></i><span class="tooltip" data-tooltip="1">Doprava zdarma na vše</span></div>
           <div><i class="icon-circle-check"></i><span>Prioritní vyřízení reklamací</span></div>
           <div><i class="icon-circle-check"></i><span>Osobní asistent</span></div>
           <div><i class="icon-circle-check"></i><span>Black Friday o den dříve</span></div>
@@ -286,6 +293,12 @@
         <a href=""><img src="/img/linkedIn.svg" alt="Facebook"></a>
     </section>
   </div>
+  <script>
+    var tooltipStrings = [
+      "Ať objednáte baterky nebo pračku, vždy budete mít nejvýhodnější dopravu zdarma.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quod ad itaque. Ut sapiente rem."
+    ]
+  </script>
   <script src="/js/app.js"></script>
 </body>
 </html>

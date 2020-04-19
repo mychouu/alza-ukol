@@ -1,0 +1,33 @@
+@keyframes push-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes push-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  60% {
+    opacity: 0;
+    transform: translateX(110%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
